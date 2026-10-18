@@ -1,0 +1,29 @@
+{
+  "labels": [
+    "NEG",
+    "POS"
+  ],
+  "emotion_to_binary": {
+    "Enjoyment": "POS",
+    "Sadness": "NEG",
+    "Anger": "NEG",
+    "Fear": "NEG",
+    "Disgust": "NEG"
+  },
+  "excluded_emotions": [
+    "Surprise",
+    "Other"
+  ],
+  "max_length": 192,
+  "numeric_icon_features": [
+    "position_01",
+    "token_index",
+    "ordinal",
+    "sample_icon_frequency",
+    "sample_icon_count",
+    "start_char",
+    "end_char"
+  ],
+  "seed": 42,
+  "input_contract": "text_no_icons plus per-icon occurrences from the same EDA preprocessing"
+}

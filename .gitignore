@@ -1,0 +1,34 @@
+# Local planning
+PLAN.md
+plan_crawl_uit_forum*.md
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Browser sessions and generated data
+chrome_profile*/
+data/
+logs/
+pipeline.lock
+
+# Generated model files
+nlp/*_model_bundle.zip
+models/pos_neg/phobert_text/
+models/pos_neg/*.pt
+models/pos_neg/*.joblib
+
+# Frontend build
+web/node_modules/
+web/dist/
+
+# Local tooling and OS files
+.codegraph/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

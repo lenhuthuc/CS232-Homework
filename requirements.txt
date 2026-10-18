@@ -1,0 +1,9 @@
+selenium>=4.6
+beautifulsoup4
+lxml
+pyyaml
+filelock
+pandas
+underthesea
+transformers
+torch

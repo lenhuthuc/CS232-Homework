@@ -1,0 +1,15 @@
+group_url: "https://www.facebook.com/groups/congdongsinhvien.hcmuit"
+user_data_dir: "./chrome_profile"
+revisit_user_data_dir: "./chrome_profile_revisit"
+headless: false
+max_new_posts: 20
+revisit_days: 7
+revisit_interval_minutes: 60
+db_path: "data/uit_forum.db"
+raw_html_dir: "data/raw_html"
+# thư mục model PhoBERT đã fine-tune (không tồn tại -> bỏ qua bước dự đoán)
+pos_neg_archive: "nlp/pos_neg_model_bundle.zip"
+pos_neg_model_dir: "models/pos_neg"
+model_version: "pos-neg-v2"
+related_threshold: 0.5
+negative_threshold: 0.7
